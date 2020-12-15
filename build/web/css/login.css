@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 30, 2020, 3:24:09 PM
+    Author     : Vu Ngoc Thinh
+*/
+
+.header {
+    margin: auto;
+    height: 100px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 60px;
+}
+
+.logo-title {
+    height: 20px;
+    margin-left: 5px;
+}
+
+.container {
+    margin-top: 100px;
+    align-items: center;
+}
+
+.form-group {
+    width: 450px;
+}
+
+.form-login {
+    width: 450px;
+    margin: auto;
+}
+
+.btn-success {
+    width: 100px;
+    font-weight: 700;
+}
+
+.form-check {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.form-check-label {
+    margin-right: 220px;
+}
+
+#exampleCheck1 {
+    margin-top: 10px;
+}
+
+.lable {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#sign-up {
+    width: 200px;
+    text-decoration: none;
+    margin-left: 455px;
+    margin-top: 20px;
+}
+
+.title-feild {
+    font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.alert{
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    background-color: #e22134;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#login-tile {
+    margin-bottom: 30px;
+    font-size: 15px;
+}

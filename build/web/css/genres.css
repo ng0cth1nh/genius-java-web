@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2020, 3:11:55 PM
+    Author     : Vu Ngoc Thinh
+*/
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: 700 !important;
+}
+
+body {
+    background-color: rgb(233, 236, 239) !important;
+}
+
+.seperate {
+    margin-top: 6px;
+}
+
+.nav-item {
+    display: inline-flex;
+    color: white;
+}
+#genres-lable{
+    font-size: 100px!important;
+    width: 200px;
+    height: 100px;
+    margin-top:100px ;
+    margin-bottom: 40px;
+}
+.nav-link {
+    color: white;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+input:focus {
+    border-color: rgb(250, 58, 10);
+}
+
+.nav-container {
+    display: inline-flex;
+    margin: auto;
+}
+
+.navbar-brand {
+    padding-right: 100px;
+}
+
+.nav-item {
+    padding-left: 100px;
+}
+
+.container-body {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px!important;
+
+}
+
+.genres-music {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.album {
+    width: 166px;
+    height: 228px;
+    justify-content: space-between;
+}
+.albums-title{
+    
+   
+}
+
+.trend {
+    width: 842px;
+    justify-content: space-between;
+    height: 100%;
+}
+.genres-album {
+    justify-content: space-between;
+    width: 100%;
+}
+.img-link {
+    margin: auto;
+    margin-top: 5px;
+}
+.card-img-top {
+    width: 141px !important;
+    height: 141px !important;
+    margin: auto !important;
+}
+.related_song_container a {
+    width: 138px !important;
+}
+.card-body {
+    padding: 0.5rem !important;
+    width: 100%;
+}
+.card-title {
+    width: 100% !important;
+    color: #212529;
+}
+a {
+    text-decoration: none !important;
+}
+.card-text {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card {
+    width: 146px;
+    margin-bottom: 1.5rem !important;
+}
+.card:hover .card-title{
+
+    color: white;
+}
+.card:hover{
+    background-color: rgb(126, 126, 126);
+    color: white;
+}

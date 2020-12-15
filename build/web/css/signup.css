@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 7, 2020, 1:55:55 PM
+    Author     : Vu Ngoc Thinh
+*/
+
+.header {
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-top: 65px;
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+.logo-title {
+    height: 15px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+#login-lable {
+    font-size: 29px;
+    margin-bottom: 50px;
+}
+
+.container {
+    margin-top: 100px;
+    align-items: center;
+}
+
+.form-group {
+    width: 450px;
+}
+
+.form-login {
+    width: 450px;
+    margin: auto;
+}
+
+.btn-success {
+    width: 100%;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.form-check {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-check-label {
+    margin-right: 220px;
+}
+
+#exampleCheck1 {
+    margin-top: 10px;
+}
+
+.lable {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+#sign-up {
+    width: 200px;
+    text-decoration: none;
+    margin-left: 455px;
+    margin-top: 20px;
+}
+
+.title-feild {
+    font-family: circular-spotify-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#login-tile {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+#date {
+    width: 80px;
+}
+
+#year {
+    width: 130px;
+}
+
+#month {
+    width: 200px;
+}
+
+#male-title {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#female-title {
+    cursor: pointer;
+}
+
+#male {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+#female {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.form-flex {
+    cursor: pointer;
+}
