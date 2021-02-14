@@ -1,6 +1,4 @@
-// var for audio content
-
-var audio = document.getElementById('audio');
+const audio = document.getElementById('audio');
 
 // html5 function - toggle play/pause btn and audio
 
@@ -17,11 +15,9 @@ $("#plays_btn").click(function() {
     }
 });
 
-
 // function for timeline
-
 audio.addEventListener("timeupdate", function() {
-    var currentTime = audio.currentTime,
+    let currentTime = audio.currentTime,
         duration = audio.duration,
         currentTimeMs = audio.currentTime * 1000;
     $('.progressbar_range').stop(true, true).animate({ 'width': (currentTime + .25) / duration * 100 + '%' }, 250, 'linear');
@@ -31,21 +27,15 @@ audio.addEventListener("timeupdate", function() {
 // count function for timeleft
 
 audio.addEventListener("timeupdate", function() {
-    var timeleft = document.getElementById('timeleft'),
+    let timeleft = document.getElementById('timeleft'),
         duration = parseInt(audio.duration),
         currentTime = parseInt(audio.currentTime),
         timeLeft = duration - currentTime,
         s, m;
-
     s = timeLeft % 60;
     m = Math.floor(timeLeft / 60) % 60;
-
     s = s < 10 ? "0" + s : s;
     m = m < 10 ? "0" + m : m;
-
     $('#timeleft').text("-" + m + ":" + s);
 
 });
-
-//that's all folks
-// sorry, others buttons dont work)
