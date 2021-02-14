@@ -5,16 +5,13 @@ var title = $('.title');
 var artist = $('.artist');
 var cover = $('.coverr');
 
-
 function secondsTimeSpanToHMS(s) {
     var h = Math.floor(s / 3600); //Get whole hours
     s -= h * 3600;
     var m = Math.floor(s / 60); //Get remaining minutes
     s -= m * 60;
     return h + ":" + (m < 10 ? '0' + m : m) + ":" + (s < 10 ? '0' + s : s); //zero padding on minutes and seconds
-};
-
-
+}
 
 var initSongSrc = songs[0].src;
 var initSongTitle = songs[0].title;
@@ -36,8 +33,6 @@ hiddenPlayer[0].onloadedmetadata = function() {
 
 
 hiddenPlayer[0].play();
-
-
 var items = songs.length - 1;
 
 $('.next').on('click', function() {
@@ -68,7 +63,7 @@ $('.next').on('click', function() {
         cover.attr('src', songCover);
         hiddenPlayer.attr('order', num);
     }
-});
+})
 
 $('.prev').on('click', function() {
     var songOrder = hiddenPlayer.attr('order');
@@ -92,7 +87,7 @@ $('.prev').on('click', function() {
         artist.html(songArtist);
         hiddenPlayer.attr('order', num);
     }
-});
+})
 
 $(".play-button").click(function() {
     $(this).toggleClass("paused");
@@ -135,8 +130,6 @@ hiddenPlayer.on('timeupdate', function() {
     }
 })
 
-///////////////////////////
-
 function SetVolume(val) {
     var player = document.getElementById('hidden-player');
     console.log('Before: ' + player.volume);
@@ -151,15 +144,9 @@ function read() {
         document.getElementById("dots").style.display = "inline";
         document.getElementById("read").innerHTML = "See more";
         document.getElementById("more").style.display = "none";
-
-
     } else {
         document.getElementById("dots").style.display = "none";
         document.getElementById("read").innerHTML = "See less";
         document.getElementById("more").style.display = "inline";
-
-
-
-
     }
 }
